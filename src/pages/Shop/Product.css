@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+  .description {
+    @apply flex flex-col;
+  }
+  .addToCartButton {
+    @apply text-sm cursor-pointer border border-black rounded-2xl text-black bg-white py-1 px-4 hover:bg-black hover:text-[#e5d5f7];
+  }
+}

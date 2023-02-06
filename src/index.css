@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply m-0;
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  p {
+    @apply text-base;
+  }
+}
+
+@layer components {
+  footer {
+    @apply bg-[#131921] text-white flex justify-center;
+  }
+  .navbar {
+    @apply w-full h-16 bg-[#131921] text-white flex justify-between items-center px-6;
+  }
+  .links {
+    @apply flex items-center;
+  }
+}
