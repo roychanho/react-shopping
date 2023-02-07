@@ -7,6 +7,8 @@ import "./index.css";
 import App from "./App";
 import Cart from "./pages/Cart/Cart";
 import Shop from "./pages/Shop/Shop";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import Contacts from "./pages/Contacts/Contacts";
 import store from "./store";
 
 const router = createBrowserRouter([
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Shop />,
+      },
+      {
+        path: "/aboutUs",
+        element: <AboutUs />,
+      },
+      {
+        path: "/contacts",
+        element: <Contacts />,
       },
       {
         path: "/cart",

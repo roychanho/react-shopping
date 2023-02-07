@@ -45,9 +45,18 @@
   footer {
     @apply bg-[#131921] text-white flex justify-center;
   }
-  .navbar {
+  .navContainer {
     @apply w-full h-16 bg-[#131921] text-white flex justify-between items-center px-6;
   }
+
+  .navContainer li {
+    @apply hover:text-[#fcb66b];
+  }
+
+  .navContainer li .active {
+    @apply text-[#fcb66b];
+  }
+
   .links {
     @apply flex items-center;
   }
